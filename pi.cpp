@@ -3,7 +3,7 @@
 using namespace std;
 
 int main(){
-	double len=0;
+	int len=0;
 	double sum=0;
 	
 	cout.setf(ios::fixed);
