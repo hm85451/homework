@@ -21,7 +21,10 @@ int main(){
 		sum+=pow(-1.0, i)/(2*(double)i + 1);
 	}
 	sum*=4;
-	cout<<"The approximate value of pi using "<< len + 1 <<" term is: " <<sum<<endl;
+	if (len+1>1)
+		cout<<"The approximate value of pi using "<< len + 1 <<" terms is: " <<sum<<endl;
+	else
+		cout<<"The approximate value of pi using "<< len + 1 <<" term is: " <<sum<<endl;
 	}
 	return 0;
 }
