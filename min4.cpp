@@ -9,7 +9,7 @@ int main(int argc, char* argv[]){
 	cerr<<"Usage: ./min4 num1 num2 num3 num4"<<"\n"<<" Prints smallest of the four numbers"<<endl;
 	exit(1);	
 	}
-	int temp = 0;
+	
 	int min1 =atoi( argv[1]);
 	int min2 =atoi( argv[2]);
 	int min3 =atoi( argv[3]);
