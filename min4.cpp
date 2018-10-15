@@ -6,7 +6,7 @@ int small2(int num1, int num2);
 
 int main(int argc, char* argv[]){
 	if (argc!=5){
-	cerr<<"Usage: input 4 numbers to find the smallest among them"<<endl;
+	cerr<<"Usage: ./min4 num1 num2 num3 num4"<<"\n" <<" Prints smallest of the four numbers"<<endl;
 	exit(1);	
 	}
 	int temp = 0;
