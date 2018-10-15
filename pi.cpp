@@ -20,7 +20,7 @@ int main(){
 	for (int i = 0; i<=len; i++){
 		sum+=pow(-1.0, i)/(2*(double)i + 1);
 	}
-	sm*=4;
+	sum*=4;
 	cout<<"The approximate value of pi using "<< len <<" term is: " <<sum<<endl;
 	}
 	return 0;
