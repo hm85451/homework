@@ -6,7 +6,7 @@ int main(){
 
 	while(true)
 	{
-	cout<<"Enter the number of rows and columns:"<<endl;
+	cout<<"Enter number of rows and columns:"<<endl;
 	cin>>row;
 	cin>>col;
 	
